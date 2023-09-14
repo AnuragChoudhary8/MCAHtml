@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS0N </title>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <script>
+                var jsonobj=[
+                    {
+                        "name":"Anurag",
+                        "Age":"21",
+                        "Gender":"M"
+                },
+                {
+                   
+                    "name":"SONU",
+                        "Age":"21",
+                        "Gender":"M" 
+                },
+                {
+                    
+                    "name":"Sharad",
+                        "Age":"21",
+                        "Gender":"M"
+                }
+            ];
+            for(var i=0;i<jsonobj.length;i++)
+            {
+    document.write(jsonobj[i].name+"=");
+    document.write(jsonobj[i].Age+"==>");
+    document.write(jsonobj[i].Gender+"</br>");
+    
+            }
+            document.write(jsonobj[0].name +"-");
+            document.write(jsonobj[0].Age+"==>");
+            document.write(jsonobj[0].Gender+"</br>");
+            </script>
+        </head>
+    </html>
+</head>
+<body>
+    
+</body>
+</html>
